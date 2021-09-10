@@ -4,7 +4,7 @@
     
 
 
-class CustomElement extends HTMLElement {
+class HTMLPartial extends HTMLElement {
 
  connectedCallback(){
    this.shadowdom = this.getAttribute('shadowdom')
@@ -62,4 +62,4 @@ class CustomElement extends HTMLElement {
   value in the quotation marks. 
 */
 
-customElements.define('custom-element', CustomElement)
+customElements.define('html-partial', HTMLPartial)
