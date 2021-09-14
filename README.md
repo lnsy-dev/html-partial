@@ -6,11 +6,15 @@ Until there are proper HTML Includes you can do it the wrong way. People who com
 Include the html-partial.js file, then you can use it like so: 
 
 ```html
-
 <html-partial src="html-url"></html-partial>
-
-or:
-
-<html-partial src="html-url" shadowroot></html-partial>
-
 ```
+or: 
+
+```html
+<html-partial src="html-url" shadowroot></html-partial>
+```
+This partial will then fetch the targeted file and inject it as a string into the divs inner HTML. 
+
+Read the code. 
+
+Careful: It's like cigarettes once you use it. 
