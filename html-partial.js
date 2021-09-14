@@ -11,7 +11,6 @@ class HTMLPartial extends HTMLElement {
     .then(res => {
       if(this.shadowdom){
         this.shadow = this.attachShadow({mode: 'open'})
-
         this.shadow.innerHTML = res
       } else {
         this.innerHTML = res
