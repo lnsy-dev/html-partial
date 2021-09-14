@@ -1,5 +1,6 @@
 # html-partial
-Until there are proper HTML Includes you can do it the wrong way. People who complain about how many calls this makes are never allowed to install tracking scripts on a website.
+
+Until there are proper HTML Includes you can do it the wrong way.  This component will then fetch the targeted file and inject it as a string into the divs inner HTML. People who complain about how many calls this makes are never allowed to install tracking scripts on a website. 
 
 ## Usage
 
