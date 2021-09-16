@@ -45,4 +45,3 @@ class HTMLPartial extends HTMLElement {
 
 customElements.define('html-partial', HTMLPartial)
 ```
-Careful: It's like cigarettes once you use it. 
