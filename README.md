@@ -14,7 +14,7 @@ Include the html-partial.js file, then you can use it like so:
 or: 
 
 ```html
-<html-partial src="html-url" shadowroot></html-partial>
+<html-partial src="html-url" shadowdom></html-partial>
 ```
 This partial will then fetch the targeted file and inject it as a string into the divs inner HTML. 
 
